@@ -1,81 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14ade97c-5096-4c86-8672-6e5600224362" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.fatjar" beforeDir="false" afterPath="$PROJECT_DIR$/.fatjar" afterDir="false" />
+    <list default="true" id="027df825-0a81-4294-b946-4260e00c9e4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knife.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/burp/BurpExtender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/burp/BurpExtender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/U2C/U2CTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/U2C/U2CTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/U2C/Unicode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/U2C/Unicode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/BurpExtender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/BurpExtender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/Custom_Payload_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/Custom_Payload_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/File_Payload_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/File_Payload_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/Getter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/Getter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/LFI_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/LFI_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/MessageEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/MessageEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/Reverse_Shell_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/Reverse_Shell_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/SQL_Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/SQL_Error.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/SQL_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/SQL_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/SQli_LoginBypass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/SQli_LoginBypass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/SSTI_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/SSTI_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/WebShell_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/WebShell_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/XSS_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/XSS_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/burp/XXE_Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/burp/XXE_Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/ComBoxEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/ComBoxEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/ConfigEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/ConfigEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/ConfigTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/ConfigTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/ConfigTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/ConfigTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/config/render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/AddHostToScopeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/AddHostToScopeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/ChunkedEncodingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/ChunkedEncodingMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/CookieUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/DismissMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/DismissMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/OpenWithBrowserMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/OpenWithBrowserMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/SetCookieMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/SetCookieMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/SetCookieWithHistoryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/SetCookieWithHistoryMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/UpdateCookieMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/UpdateCookieMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/UpdateCookieWithHistoryMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/UpdateCookieWithHistoryMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knife/UpdateHeaderMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/knife/UpdateHeaderMenu.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/classes/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="582" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BurpExtender.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/burp/BurpExtender.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-              <folding>
-                <element signature="e#3266#3267#0" expanded="true" />
-                <element signature="e#3304#3305#0" expanded="true" />
-                <element signature="e#7502#7510#0" expanded="true" />
-                <element signature="e#7558#7566#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="U2CTab.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/U2C/U2CTab.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/burp/Methods.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="587">
+                  <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/burp/MethodsTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="792">
+                  <caret line="45" column="66" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1656">
+                  <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/burp/MethodsTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="488">
+                  <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/knife/ChunkedEncodingMenu.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>decoding</find>
+      <find>create_main</find>
+      <find>getSt</find>
+      <find>Do_modify_request</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/burp/Methods.java" />
+        <option value="$PROJECT_DIR$/src/test/burp/MethodsTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1919" />
+    <option name="y" value="43" />
+    <option name="width" value="3842" />
+    <option name="height" value="2196" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="knife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knife" type="462c0819:PsiDirectoryNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="knife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knife" type="462c0819:PsiDirectoryNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="knife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="knife" type="462c0819:PsiDirectoryNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="burp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="knife" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="knife" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenWithBrowserMenu.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="knife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="knife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bit4woo-knife" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="burp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,115 +241,213 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+    <configuration name="MethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="knife" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="burp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.burp" />
+      <option name="MAIN_CLASS_NAME" value="burp.MethodsTest" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MethodsTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14ade97c-5096-4c86-8672-6e5600224362" name="Default" comment="" />
-      <created>1544769372233</created>
+      <changelist id="027df825-0a81-4294-b946-4260e00c9e4c" name="Default Changelist" comment="" />
+      <created>1559129213356</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1544769372233</updated>
+      <updated>1559129213356</updated>
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MethodsTest - 2019.05.29 at 17h 22m 30s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 17h 27m 24s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 29m 54s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 30m 55s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 31m 59s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 32m 30s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 45m 58s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 46m 33s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 48m 00s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MethodsTest - 2019.05.29 at 18h 50m 20s.xml">
+      <configuration name="MethodsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="2001" y="-5" width="3759" height="2165" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17499325" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32957333" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32466894" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39970574" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info active="true" anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.24925736" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/knife$MethodsTest.ic" NAME="MethodsTest Coverage Results" MODIFIED="1559152235938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>burp.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/U2C/U2CTab.java">
+    <entry file="file://$PROJECT_DIR$/src/test/knife/OpenWithBrowser_ActionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/burp/BurpExtender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="-3546">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/burp/BurpExtender.java">
+    <entry file="file://$PROJECT_DIR$/src/test/burp/BurpExtenderTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/config/ConfigEntryTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/config/ConfigEntry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="72">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/knife/OpenWithBrowserMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/config/ConfigTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1028">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/swing/JMenuItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
           <folding>
-            <element signature="e#3266#3267#0" expanded="true" />
-            <element signature="e#3304#3305#0" expanded="true" />
-            <element signature="e#7502#7510#0" expanded="true" />
-            <element signature="e#7558#7566#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/javax/swing/JMenu.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="92" column="21" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/knife/ChunkedEncodingMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/burp/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/burp/MethodsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
