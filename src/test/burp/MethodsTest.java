@@ -27,8 +27,10 @@ public class MethodsTest {
   @Test
   public void testPrompt_and_validate_input() {
     PowerMockito.mockStatic(JOptionPane.class);
-    PowerMockito.when(JOptionPane.showInputDialog(anyString(), anyString())).thenReturn("").thenReturn("fooBar");
-    Assert.assertEquals("fooBar", Methods.prompt_and_validate_input("foo", "Bar"));
+    PowerMockito.when(JOptionPane.showInputDialog(anyString(),
+            anyString())).thenReturn("").thenReturn("fooBar");
+    Assert.assertEquals("fooBar",
+            Methods.prompt_and_validate_input("foo", "Bar"));
   }
 
   @Test
@@ -44,7 +46,8 @@ public class MethodsTest {
 
   @Test
   public void testDecoding() throws UnsupportedEncodingException {
-    Assert.assertArrayEquals("Bar".getBytes(), Methods.decoding("foo\r\nBar\r\n;".getBytes()));
+    Assert.assertArrayEquals("Bar".getBytes(),
+            Methods.decoding("foo\r\nBar\r\n;".getBytes()));
   }
 
   @Test
@@ -55,34 +58,40 @@ public class MethodsTest {
 
   @Test
   public void testEncodingFalse() throws UnsupportedEncodingException {
-    Assert.assertArrayEquals("3\r\nfoo\r\n3\r\nBar\r\n0\r\n\r\n".getBytes(), Methods.encoding("fooBar".getBytes(), 3, false));
+    Assert.assertArrayEquals("3\r\nfoo\r\n3\r\nBar\r\n0\r\n\r\n".getBytes(),
+            Methods.encoding("fooBar".getBytes(), 3, false));
   }
 
   @PrepareForTest({Random.class, Methods.class})
   @Test
   public void testEncodingTrue() throws Exception {
     final Random random = PowerMockito.mock(Random.class);
-    PowerMockito.when(random.nextInt(anyInt())).thenReturn(5);
+    PowerMockito.when(random.nextInt(anyInt())).thenReturn(61);
     PowerMockito.whenNew(Random.class).withNoArguments().thenReturn(random);
 
-    Assert.assertArrayEquals("3;FFFFFFFFFF\r\nfoo\r\n3;FFFFFFFFFF\r\nBar\r\n0\r\n\r\n".getBytes(), Methods.encoding("fooBar".getBytes(), 3, true));
+    Assert.assertArrayEquals(
+          "3;0000000000\r\nfoo\r\n3;0000000000\r\nBar\r\n0\r\n\r\n".getBytes(),
+          Methods.encoding("fooBar".getBytes(), 3, true));
   }
 
   @Test
   public void testDo_modify_request() {
-    Assert.assertArrayEquals("fooBaro".getBytes(), Methods.do_modify_request("foo".getBytes(), new int[]{3, 2}, "Bar".getBytes()));
+    Assert.assertArrayEquals("fooBaro".getBytes(), Methods.do_modify_request(
+            "foo".getBytes(), new int[]{3, 2}, "Bar".getBytes()));
   }
 
   @Test
   public void testDo_modify_requestNull() {
-    Assert.assertArrayEquals("foo".getBytes(), Methods.do_modify_request("foo".getBytes(), new int[]{3, 2}, null));
+    Assert.assertArrayEquals("foo".getBytes(), Methods.do_modify_request(
+            "foo".getBytes(), new int[]{3, 2}, null));
   }
 
   @PrepareForTest({Random.class, Methods.class})
   @Test
   public void testGetRandomString() throws Exception {
     final Random random = PowerMockito.mock(Random.class);
-    PowerMockito.when(random.nextInt(anyInt())).thenReturn(5).thenReturn(14).thenReturn(14);
+    PowerMockito.when(random.nextInt(anyInt())).thenReturn(5)
+            .thenReturn(14).thenReturn(14);
     PowerMockito.whenNew(Random.class).withNoArguments().thenReturn(random);
 
     Assert.assertEquals("FOO", Methods.getRandomString(3));
@@ -95,7 +104,8 @@ public class MethodsTest {
     arrayList.add("Bar");
     arrayList.add("1");
 
-    Assert.assertEquals(arrayList, Methods.getStrList("fooBar1", 3));
+    Assert.assertEquals(arrayList,
+            Methods.getStrList("fooBar1", 3));
   }
 
   @Test
@@ -104,13 +114,16 @@ public class MethodsTest {
     arrayList.add("foo");
     arrayList.add("Bar");
 
-    Assert.assertEquals(arrayList, Methods.getStrList("fooBar123", 3, 2));
+    Assert.assertEquals(arrayList,
+            Methods.getStrList("fooBar123", 3, 2));
   }
 
   @Test
   public void testSubstring() {
-    Assert.assertEquals("345", Methods.substring("12345", 2, 5));
-    Assert.assertEquals("45", Methods.substring("12345", 3, 6));
+    Assert.assertEquals("345",
+            Methods.substring("12345", 2, 5));
+    Assert.assertEquals("45",
+            Methods.substring("12345", 3, 6));
     Assert.assertNull(Methods.substring("12345", 6, 7));
   }
 }
